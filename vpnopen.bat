@@ -1,0 +1,6 @@
+@echo off
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /f /v "ProxyEnable" /t REG_DWORD /d 1
+@echo off
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections" /f /v "DefaultConnectionSettings" /t REG_BINARY /d  4600000078000000030000000e0000003132372e302e302e313a3837383700000000000000000100000000000000000000000000000000000000000000000000000000000000
+@echo off
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections" /f /v "SavedLegacySettings" /t REG_BINARY /d  4600000078660100030000000e0000003132372e302e302e313a3837383700000000000000000100000000000000000000000000000000000000000000000000000000000000

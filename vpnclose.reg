@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"ProxyEnable"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Connections]
+"DefaultConnectionSettings"=hex:\
+46,00,00,00,78,00,00,00,\
+01,00,00,00,0e,00,00,00,\
+31,32,37,2e,30,2e,30,2e,\
+31,3a,38,37,38,37,00,00,\
+00,00,00,00,00,00,01,00,\
+00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00
+"SavedLegacySettings"=hex:\
+46,00,00,00,78,66,01,00,\
+01,00,00,00,0e,00,00,00,\
+31,32,37,2e,30,2e,30,2e,\
+31,3a,38,37,38,37,00,00,\
+00,00,00,00,00,00,01,00,\
+00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00
